@@ -38,6 +38,7 @@ import java.util.List;
 
 public class ChatListFragment extends Fragment implements ItemClickListener, AlertDialogHelper.AlertDialogListener {
     ActionMode mActionMode;
+    ///recycler view
     RecyclerView recyclerViewChatList;
     LinearLayoutManager layoutManager;
     RecyclerViewAdapter recyclerViewAdapter;
